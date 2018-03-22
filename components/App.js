@@ -8,7 +8,6 @@ App = React.createClass({
         };
     },
 
-
   /*
     **Algorytm postępowania dla tej metody jest następujący:
 1. pobierz na wejściu wpisywany tekst,
@@ -32,10 +31,7 @@ App = React.createClass({
         }.bind(this));
       },
 
-
-
-      /*ak jak w poprzednim podpunkcie, rozpiszę algorytm postępowania w punktach, zgodnie z odpowiadającymi im komentarzami w kodzie:
-
+      /*Tak jak w poprzednim podpunkcie, rozpiszę algorytm postępowania w punktach, zgodnie z odpowiadającymi im komentarzami w kodzie:
 1. Na wejście metody getGif przyjmujemy dwa parametry: wpisywany tekst (searchingText) i funkcję, która ma się wykonać po pobraniu gifa (callback)
 2. Konstruujemy adres URL dla API Giphy (pełną dokumentację znajdziesz pod tym adresem)
 3. Wywołujemy całą sekwencję tworzenia zapytania XHR do serwera i wysyłamy je.
@@ -64,7 +60,6 @@ App = React.createClass({
     },
 
     render: function() {
-
         var styles = {
             margin: '0 auto',
             textAlign: 'center',
