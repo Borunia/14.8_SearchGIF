@@ -30,7 +30,8 @@ Search = React.createClass({
             maxWidth: '350px'
         };
 
-        return (            <input
+        return (            
+            <input
                 type='text'
                 onChange={this.handleChange}
                 onKeyUp={this.handleKeyUp}
